@@ -7,7 +7,7 @@ You have to pass your PG database connection string to the 'DB_STRING' environme
 ### Static Files
 Static files are served using whitenoise, your development/production environment will be automatically recognized and served accordingly so you don't need to change any settings when on localhost
 ### SecretKey
-Make sure to pass your secretkey to 'SECRET_KEY' environment variable in production
+Make sure to pass your secretkey to ```'SECRET_KEY'``` environment variable in production
 ### SuperUser
 A new superuser will be created when you first deploy your project, 
 
