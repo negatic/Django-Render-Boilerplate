@@ -1,5 +1,5 @@
 # Django Render Boilerplate
-This is a boilerplate project to quickly build and deploy django projects on Render cloud services
+This is a boilerplate project to quickly build and deploy django projects on Render cloud services using Gunicorn and Whitenoise
 Note: the DEBUG setting will be automatically set depending on the place you're running/deploying your project so you don't have to pass any environment variable for it.
 ### Database
 By default this project uses sqlite in development environment (DEBUG=True) and Postgres in production settings (DEBUG=False)
