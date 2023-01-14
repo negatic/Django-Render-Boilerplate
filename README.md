@@ -15,7 +15,6 @@ A new superuser will be created when you first deploy your project,
 DJANGO_SUPERUSER_USERNAME=your_username
 DJANGO_SUPERUSER_PASSWORD=your_password 
 DJANGO_SUPERUSER_EMAIL="admin@admin.com"
-
 ```
 ### Python Version
 You can pass your desired python version with this environment variable:
