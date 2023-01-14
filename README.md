@@ -16,6 +16,7 @@ DJANGO_SUPERUSER_USERNAME=your_username
 DJANGO_SUPERUSER_PASSWORD=your_password 
 DJANGO_SUPERUSER_EMAIL="admin@admin.com"
 ```
+Note: Make sure to comment the createsuperuser line in build.ssh after your first deploy, otherwise your future deployments will get failed
 ### Python Version
 You can pass your desired python version with this environment variable:
 ```PYTHON_VERSION=3.11.1```
@@ -23,3 +24,7 @@ You can pass your desired python version with this environment variable:
 ### WEB CONCURRENCY
 The number of worker processes for handling requests. Default is 1.
 ```WEB_CONCURRENCY=4```
+
+### pyproject.toml
+This file contains name,description and your project dependencies, make sure you update it according to your needs
+
